@@ -7,7 +7,7 @@
 - String、StringBuffer、StringBuilder的区别
 
 ```
-String是字符串常量，因为String中存储字符的数组被定义为final类型的，如果经常对字符串
+String是字符串常量，因为String中存储字符的数组被定义为final类型的，如果经常对字符串进行修改
 StringBuffer是字符串变量，并且是线程安全的，因为它里面的方法每一个都加了sychronized，多线程下能保证数据的一致性。
 StringBuilder是字符串变量，不是线程安全的，单线程的情况下使用它效率会高一些。
 ```
